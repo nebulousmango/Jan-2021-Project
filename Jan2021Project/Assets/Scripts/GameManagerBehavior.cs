@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManagerBehavior : MonoBehaviour
 {
-    public Text staminaLabel;
+    public TextMeshProUGUI staminaLabel;
     private int stamina;
     public bool gameOver = false;
     public GameObject[] healthIndicator;
@@ -19,7 +20,7 @@ public class GameManagerBehavior : MonoBehaviour
         set
         {
             stamina = value;
-            staminaLabel.GetComponent<Text>().text = "Stamina: " + stamina;
+            staminaLabel.GetComponent<TextMeshProUGUI>().text = "Stamina: " + stamina;
         }
     }
 
