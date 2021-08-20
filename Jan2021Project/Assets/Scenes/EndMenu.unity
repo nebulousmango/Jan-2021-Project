@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 189772080}
   - component: {fileID: 189772079}
   m_Layer: 5
-  m_Name: PlayButton
+  m_Name: RetryButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -238,7 +238,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 348f014418c3aa34d9fe23e4a63b2524, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a2ac37fb6ed87e64593698ce4c7b1ee2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 756566577}
   - component: {fileID: 756566576}
   m_Layer: 5
-  m_Name: MainMenu
+  m_Name: FailMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -346,7 +346,7 @@ GameObject:
   - component: {fileID: 976388423}
   - component: {fileID: 976388422}
   m_Layer: 5
-  m_Name: QuitButton
+  m_Name: HomeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -417,7 +417,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1225321730}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
-        m_MethodName: QuitGame
+        m_MethodName: LoadLevelB
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -447,7 +447,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 73dfcb38324e533469537996b16483f6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4d1faae178924f442bc38f197c6679a3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -578,8 +578,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 611675e14a2382340be0f591dc2a113f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  S_LevelA: ControlsMenu
-  S_LevelB: 
+  S_LevelA: Level01
+  S_LevelB: MainMenu
   S_LevelC: 
   S_LevelD: 
 --- !u!1 &1646191260
